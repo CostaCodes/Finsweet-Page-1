@@ -1,0 +1,1161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Header-Section*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .main-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.main-header .logo-section .logo-image img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.main-header .right-section {
+    display: flex;
+}
+
+.right-section .navigation-section {
+    border-right: 3px solid gray;
+    height: 24px;
+    margin-top: 5px;
+}
+
+.navigation-section ul {
+    display: flex;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navigation-section ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-right: 20px;
+}
+
+.navigation-section ul li {
+    list-style: none;
+}
+
+.road-assistance .call-logo {
+    display: flex;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.call-logo .call-image {
+    padding-right: 10px;
+
+}
+
+/*First-Section*/
+
+#first-section .main-section {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.main-section .left-section {
+    width: 45%;
+    padding-top: 65px;
+    padding-left: 10px;
+}
+
+.main-section .left-section h1 {
+    font-size: 43px;
+    padding-bottom: 30px;
+}
+
+.main-section .left-section button {
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.left-section .clock-section .clock-image {
+    display: flex;
+    padding-top: 40px;
+
+}
+
+.clock-section .clock-image .time-section {
+    width: 80%;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.clock-section .clock-image .time-section p {
+    font-size: 20px;
+    color: #939191;
+}
+
+.clock-section .clock-image .time-section h5 {
+    font-size: 17px;
+}
+
+.main-section .right-section {
+    width: 45%;
+    padding: 10px;
+}
+
+
+/* Second-section */
+#second-section {
+    background-color: #E2E6E9;
+    padding: 50px 0;
+}
+
+#second-section .second-main {
+    display: flex;
+}
+
+.second-main .left-section {
+    width: 45%;
+    padding: 10px 0;
+    margin: 0 15px;
+}
+
+.second-main .left-section .text-section h1 {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.left-section .text-section .diff-service .services {
+    display: flex;
+}
+
+.left-section .text-section .diff-service .services small {
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.text-section .diff-service .services {
+    padding: 20px 0;
+}
+
+.text-section .diff-service .services .options {
+    padding-left: 15px;
+}
+
+.diff-service .services .options h5 {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 5px;   
+}
+
+.text-section .diff-service .services .arrow small {
+    font-weight: bold;
+}
+
+.text-section .diff-service .services .arrow span {
+    padding-left: 10px;
+}
+
+.text-section .diff-service .arrow {
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.second-main .right-section {
+    width: 45%;
+    padding: 10px 0;
+    margin-left: 50px;
+}
+
+.second-main .right-section h2 {
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+
+.second-main .right-section input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid white;
+    margin: 3px 0;
+    outline: white;
+    border-radius: 3px;
+}
+
+.second-main .right-section button {
+    padding: 15px 10px;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    width: 35%;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 30px;
+    border: none;
+}
+
+/* Third-Section */
+#third-section .third-main {
+    display: flex;
+    padding: 50px 0;
+}
+
+.third-main .left-section {
+    width: 45%;
+    padding: 50px 10px;
+}
+
+.third-main .left-section h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.third-main .left-section .text-section p {
+    color: #1E1B1B;
+    opacity: 0.8;
+    line-height: 23px;
+}
+
+.third-main .left-section .text-section button {
+    padding: 15px 10px;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    width: 35%;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 30px;
+    border: none;
+}
+
+.third-main .right-section {
+    width: 45%;
+    padding: 20px 0;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-section .number-section .numbers {
+    display: flex;
+
+}
+
+.right-section .number-section .numbers .text small {
+    font-size: 15px;
+    color: #1E1B1B;
+    opacity: 0.8;
+    line-height: 20px;
+}
+
+.right-section .number-section .numbers .border {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section .number-section .numbers .border .lines {
+    padding: 10px 0;
+    padding-left: 35px;
+}
+
+.right-section .number-section .numbers .text {
+    padding-left: 15px;
+}
+
+.right-section .number-section .numbers .text h5 {
+    padding: 14px 0 4px;
+    font-size: 20px;
+}
+
+/* Fourth-Section */
+#fourth-section {
+    background-color: #F2F2F2;
+    padding: 60px 0;
+}
+
+#fourth-section h5, #fourth-section h1 {
+    text-align: center;
+} 
+    
+#fourth-section h5 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#fourth-section h1 {
+    font-size: 35px;
+}
+
+#fourth-section .box-section {
+    display: flex;
+    margin: 40px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#fourth-section .box-section .box {
+    background-color: white;
+    height: 232px;
+    width: 24%;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#fourth-section .box-section .box p {
+    margin-top: 10px;
+    font-weight: 550;
+}
+
+#fourth-section .box-section .box:hover {
+    background-color: orangered;
+    color: white;
+}
+
+#fourth-section .arrow-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#fourth-section .arrow-section .arrow {
+    display: flex;
+}
+
+#fourth-section .arrow-section .arrow img {
+    margin-left: 10px;
+}
+
+#fourth-section .arrow-section .arrow p {
+    font-weight: 500;
+}
+
+
+/* Fifith-Section */
+
+#fifth-section .main-section {
+    display: flex;
+}
+
+#fifth-section .main-section {
+    width: 100%;
+}
+
+#fifth-section .main-section .car-section {
+    width: 28%;
+
+}
+
+#fifth-section .main-section .car-section img {
+    height: 100%;
+
+}
+
+#fifth-section .main-section .text-section {
+    width: 32%;
+    background-color: orangered;
+    color: white;
+    padding: 90px 30px;
+}
+
+#fifth-section .main-section .text-section p {
+    font-size: 26px;
+}
+
+#fifth-section .main-section .text-section .btn {
+    padding: 40px 0;
+}
+
+#fifth-section .main-section .text-section button {
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+
+#fifth-section .main-section .engine-section {
+    width: 40%;
+}
+
+#fifth-section .main-section .engine-section img {
+    width: 100%;
+    height: 100%;
+}
+
+#fifth-section .number-section {
+    height: 120px;
+    background-color: #F2F2F2;
+    display: flex;
+    padding-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#fifth-section .number-section h1 {
+    font-size: 45px;
+    color: #661CE7;
+    font-weight: bold;
+}
+
+#fifth-section .number-section p {
+    font-weight: 550;
+    color: #1E1B1B;
+}
+
+
+/* Sixth-Section */
+
+#sixth-section {
+    background-color: #FAFAFA;
+    padding: 50px 0;
+}
+
+#sixth-section h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#sixth-section .logo-section .logos {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Seventh-Section */
+
+#seventh-section {
+    padding: 50px 0;
+}
+
+#seventh-section h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+#seventh-section .customer-section {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#seventh-section .customer-section .customer-1 {
+    border: 1px solid #ACACAC4A;
+    padding: 40px;
+    border-radius: 5px;
+    width: 40%;
+    background: white;
+    margin-right: 10px;
+}
+
+#seventh-section .customer-section .customer-1 p {
+    line-height: 20px;
+}
+
+.customer-section .customer-1 .main {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.customer-section .customer-1 .main .text {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.customer-section .customer-1 .main .text h5 {
+    font-weight: 750;
+    font-size: 15px;
+}
+
+.customer-section .customer-1 .main .text small {
+    color: #939191;
+}
+
+#seventh-section .customer-section .customer-2 {
+    border: 1px solid #ACACAC4A;
+    padding: 40px;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 10px;
+    
+}
+
+#seventh-section .customer-section .customer-2 p {
+    line-height: 20px;
+}
+
+.customer-section .customer-2 .main {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.customer-section .customer-2 .main .text {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.customer-section .customer-2 .main .text h5 {
+    font-weight: 750;
+    font-size: 15px;
+}
+
+.customer-section .customer-2 .main .text small {
+    color: #939191;
+}
+
+#seventh-section .items {
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#seventh-section .items .first-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-left: 24rem;
+
+}
+
+#seventh-section .items .second-icon {
+     margin-left: 2rem;
+}
+
+
+/* Eight-Section */
+#eight-section {
+    background-color: #E2E6E9;
+    padding: 50px 0;
+
+}
+
+#eight-section h2 {
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+}
+
+#eight-section .questions {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#eight-section .questions .faq-section {
+    width: 70%;
+}
+
+#eight-section .faq-section .faqs {
+    background-color: white;
+    color: #1E1B1B;
+    margin: 10px 0;
+    padding: 30px;
+    width: 100%;
+}
+
+#eight-section .faq-section .faqs .main {
+    display: flex;
+    justify-content: space-between;
+}
+#eight-section .faq-section .faqs .main  {
+    padding-bottom: 5px;
+}
+
+#eight-section .faq-section .faqs .main h5 {
+    font-weight: 800;
+}
+
+#eight-section .faq-section .faqs .main span {
+    background-color: orangered;
+    color: white;
+    font-weight: bolder;
+    padding: 5px 10px;
+
+}
+
+
+/* Ninth-Section */
+
+#ninth-section {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 50px 0;
+}
+
+#ninth-section .main-section {
+    display: flex;
+}
+
+#ninth-section .main-section .left-section {
+    width: 45%;
+    padding: 10px;
+}
+
+#ninth-section .main-section .left-section h2 {
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+
+#ninth-section .main-section .left-section .logos {
+    display: flex;
+    padding-top: 50px;
+}
+
+.main-section .left-section .logos img {
+    padding-right: 40px;
+    width: 120%;
+}
+
+#ninth-section .main-section .right-section {
+    width: 45%;
+    padding: 10px 0;
+    padding-left: 50px;
+}
+
+.main-section .right-section .text {
+    padding-bottom: 40px;
+}
+
+.main-section .right-section .text p {
+    line-height: 36px;
+}
+
+.main-section .right-section .text small {
+    font-size: 17px;
+    color: gray;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    padding: 40px 0;
+}
+
+footer .main-footer {
+    display: flex;
+}
+
+footer .main-footer .logo-section {
+    width: 20%;
+}
+
+footer .main-footer .middle-section {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-footer .middle-section .navigation-section ul li a{
+    color: white;
+}  
+
+footer .main-footer .last-section {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .main-footer .last-section small {
+    color: gray;
+}
+
+
+/* Media-Query */
+
+@media only screen and (max-width: 1024.99px) {
+
+    header .main-header {
+        flex-direction: column;
+    }
+
+    .main-header .logo-section .logo-image img {
+        width: 20%;
+        padding-bottom: 10px;
+    }
+
+    .main-section .left-section {
+        padding-top: 30px;
+    }
+
+    .main-section .left-section h1 {
+        padding-bottom: 15px;
+    }
+
+    .main-section .left-section button {
+        width: 40%;
+    }
+
+    .left-section .clock-section .clock-image {
+        padding-top: 20px;
+    }
+
+    #seventh-section .customer-section .customer-1 {
+        padding: 20px;
+    }
+
+    #seventh-section .customer-section .customer-2 {
+        padding: 20px;
+    }
+
+    footer .main-footer {
+        width: 100%;
+    }
+
+    footer .main-footer .logo-section {
+        width: 20%;
+    }
+
+    footer .main-footer .middle-section {
+        width: 70%;
+    }
+
+    footer .main-footer .last-section {
+        width: 15%;
+    }
+
+    .main-footer .middle-section .navigation-section ul li a {
+        font-size: 15px;
+    }
+
+
+
+}
+
+/* Tablet-View */
+@media only screen and (max-width: 768.99px) {
+    .navigation-section ul {
+        font-size: 17px;
+    }
+
+    .navigation-section ul li a {
+        margin-right: 21px;
+    }
+
+    .right-section .navigation-section {
+        border: none;
+    }
+
+    .road-assistance .call-logo {
+        display: none;
+    }
+
+    .main-section .left-section h1 {
+        font-size: 30px;
+    }
+
+    .main-section .left-section button {
+        width: 50%;
+    }
+
+    .main-section .right-section .mechanic-section img {
+        height: 350px;
+    }
+
+    .left-section .clock-section .clock-image img {
+        width: 20%;
+        height: 50px;
+    }
+
+    .clock-section .clock-image .time-section {
+        padding-left: 15px;
+        padding-top: 0;
+    }
+
+    .second-main .left-section .text-section h1 {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    .text-section .diff-service .services {
+        padding: 10px 0;
+    }
+
+    .text-section .diff-service .services .options {
+        padding-left: 10px;
+    }
+
+    .text-section .diff-service .arrow {
+        padding-left: 20px;
+    }
+    .second-main .right-section button {
+        width: 50%;
+    }
+
+    #third-section .third-main {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .third-main .left-section {
+        width: 100%;
+        padding: 10px 50px;
+    }
+
+    .third-main .left-section h1 {
+        font-size: 40px;
+    }
+
+    .third-main .right-section {
+        width: 100%;
+        padding-top: 50px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: 50px;
+    }
+
+    #fourth-section h1 {
+        font-size: 30px;
+    }
+
+    #fourth-section .box-section .box {
+        height: 155px;
+    }
+
+    #fifth-section .main-section {
+        height: 300px;
+    }
+
+    #fifth-section .main-section .car-section img {
+        width: 250%;
+    }
+
+    #fifth-section .main-section .text-section {
+        padding: 30px;
+    }
+
+    #fifth-section .number-section h1 {
+        font-size: 40px;
+    }
+
+    #fifth-section .number-section p {
+        font-size: 17px;
+    }
+
+    #sixth-section h2 {
+        padding: 10px 0;
+    }
+
+    #seventh-section .customer-section {
+        flex-direction: column;
+    }
+
+    #sixth-section .logo-section .logos img {
+        width: 120%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #seventh-section .customer-section .customer-1 {
+        width: 400px;
+        padding: 30px;
+        margin-bottom: 25px;
+    }
+
+    #seventh-section .customer-section .customer-2 {
+        width: 400px;
+        padding: 30px;
+        margin-bottom: 25px;
+        margin-left: 0;
+    }
+
+    #seventh-section .items .first-icon {
+        margin-left: 5rem;
+    }
+
+    #seventh-section .items .second-icon {
+        margin-left: 0;
+    }
+
+    #eight-section h2 {
+        padding-top: 0;
+        font-size: 30px;
+    }
+
+    #eight-section .questions .faq-section {
+        width: 100%;
+    }
+
+    #eight-section .faq-section .faqs {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #ninth-section .main-section .left-section h2 {
+        font-size: 30px;
+        padding-bottom: 80px;
+    }
+
+    .main-section .right-section .text {
+        padding-bottom: 25px;
+    }
+
+    footer .main-footer {
+        flex-direction: column;
+    }
+
+    footer .main-footer .logo-section {
+        width: 100%;
+        order: 1;
+    }
+
+    footer .main-footer .middle-section {
+        order: 2;
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    footer .main-footer .last-section {
+        padding-top: 20px;
+        text-align: center;
+        width: 100%;
+        order: 3;
+    }
+
+
+
+}
+
+/* Mobile-View */
+@media only screen and (max-width: 425.99px) {
+    header .main-header {
+        flex-direction: column;
+    }
+
+    .main-header .logo-section .logo-image img {
+        width: 50%;
+    }
+
+    .navigation-section ul {
+        flex-direction: column;
+        line-height: 23px;
+    }
+
+    .navigation-section ul li {
+        width: 100%;
+        display: block;
+    }
+
+    #first-section {
+        padding-top: 120px;
+    }
+
+    #first-section .main-section {
+        flex-direction: column;
+    }
+
+    .main-section .left-section {
+        width: 100%;
+        padding-top: 0;
+        order: 2;
+    }
+
+    .main-section .right-section {
+        width: 100%;
+        padding-top: 20px;
+        order: 1;
+    }
+
+    .main-section .right-section .mechanic-section img {
+        width: 350px;
+    }
+
+    #fourth-section {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+
+    #fourth-section h1 {
+        font-size: 25px;
+    }
+
+    #fourth-section .box-section .box {
+        width: 45%;
+        margin-bottom: 15px;
+    }
+
+    #fifth-section .main-section {
+        flex-direction: column;
+        height: 700px;
+    }
+
+    #fifth-section .main-section .car-section {
+        width: 100%;
+    }
+
+    #fifth-section .main-section .car-section img {
+        width: 100%;
+    }
+
+    #fifth-section .main-section .text-section {
+        width: 100%;
+    }
+
+    #fifth-section .main-section .engine-section {
+        width: 100%;
+    }
+
+    #fifth-section .number-section h1 {
+        font-size: 30px;
+    }
+
+    #fifth-section .number-section p {
+        font-size: 12px;
+    }
+
+    #fifth-section .number-section {
+        padding-top: 5px;
+    }
+
+    #sixth-section {
+        padding: 20px 0;
+    }
+
+    #sixth-section .logo-section .logos img {
+        width: 100%;
+    }
+
+    #sixth-section .logo-section .logos{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    #second-section .second-main {
+        flex-direction: column;
+    }
+
+    .second-main .left-section {
+        width: 100%;
+        margin: 0;
+    }
+
+    .text-section .diff-service .services {
+        padding: 15px 0;
+    }
+
+    .second-main .right-section {
+        width: 100%;
+        margin: 0;
+    }
+
+    .second-main .right-section h2 {
+        font-size: 30px;
+    }
+
+    .text-section .diff-service .arrow {
+        padding-left: 60px;
+    }
+
+    .third-main .left-section {
+        padding: 10px;
+        order: 2;
+        border-top: 2px solid #F5F5F5;
+    }
+
+    .third-main .right-section {
+        padding-top: 20px;
+    }
+
+    .third-main .left-section h1 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .third-main .right-section {
+        margin: 0;
+        order: 1;
+    }
+
+    #seventh-section {
+        padding: 20px 0;
+    }
+
+    #seventh-section h2 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    #seventh-section .customer-section .customer-1 {
+        width: 300px;
+        padding: 20px;
+    }
+
+    #seventh-section .customer-section .customer-2 {
+        width: 300px;
+        padding: 20px;
+    }
+
+    #eight-section {
+        padding: 30px 0;
+    }
+
+    #eight-section h2 {
+        font-size: 25px;
+    }
+
+    #eight-section .faq-section .faqs {
+        margin: 15px 0;
+    }
+
+    #ninth-section .main-section {
+        flex-direction: column;
+    }
+
+    #ninth-section .main-section .left-section {
+        width: 100%;
+        order: 2;
+        padding-top: 30px;
+        border-top: 2px solid gray;
+    }
+
+    #ninth-section .main-section .left-section h2 {
+        padding-bottom: 20px;
+    }
+
+    #ninth-section .main-section .right-section {
+        width: 100%;
+        order: 1;
+        padding: 0;
+    }
+
+    footer .main-footer .middle-section {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    footer .main-footer .last-section {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+
+
+
+}
