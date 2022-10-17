@@ -388,6 +388,7 @@ header .main-header {
     background-color: black;
     color: white;
     border-radius: 10px;
+    border: none;
 }
 
 
@@ -973,6 +974,7 @@ footer .main-footer .last-section small {
     .main-section .left-section {
         width: 100%;
         padding-top: 0;
+        padding-left: 0;
         order: 2;
     }
 
@@ -982,8 +984,14 @@ footer .main-footer .last-section small {
         order: 1;
     }
 
+    .main-section .right-section .mechanic-section {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
     .main-section .right-section .mechanic-section img {
-        width: 350px;
+        width: 400px;
+        margin-left: -75px;
     }
 
     #fourth-section {
@@ -1022,11 +1030,11 @@ footer .main-footer .last-section small {
     }
 
     #fifth-section .number-section h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #fifth-section .number-section p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     #fifth-section .number-section {
@@ -1086,6 +1094,10 @@ footer .main-footer .last-section small {
     .third-main .left-section h1 {
         font-size: 30px;
         padding-top: 20px;
+    }
+
+    .third-main .left-section .text-section button {
+        width: 45%;
     }
 
     .third-main .right-section {
@@ -1154,6 +1166,7 @@ footer .main-footer .last-section small {
         align-items: flex-start;
         justify-content: flex-start;
     }
+
 
 
 
