@@ -974,7 +974,6 @@ footer .main-footer .last-section small {
     .main-section .left-section {
         width: 100%;
         padding-top: 0;
-        padding-left: 0;
         order: 2;
     }
 
@@ -984,14 +983,9 @@ footer .main-footer .last-section small {
         order: 1;
     }
 
-    .main-section .right-section .mechanic-section {
-        align-items: flex-start;
-        justify-content: flex-start;
-    }
-
     .main-section .right-section .mechanic-section img {
-        width: 400px;
-        margin-left: -75px;
+        width: 350px;
+        margin-left: -50px;
     }
 
     #fourth-section {
